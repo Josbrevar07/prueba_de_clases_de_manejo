@@ -1,0 +1,3969 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="Clases de manejo personalizadas Josué ¡Para servirle!"
+    />
+    <meta
+      property="og:description"
+      content="Clases de manejo personalizadas y más servicios relacionados"
+    />
+    <meta
+      property="og:image"
+      content="https://p3plzcpnl505200.prod.phx3.secureserver.net:2083/cpsess7624812650/frontend/jupiter/filemanager/index.html/Y_Y.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://clases-de-manejo-personalizadas.com/"
+    />
+    <meta property="og:type" content="website" />
+    <title>Clases de manejo personalizadas</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="favicon-32x32.png" rel="icon" />
+    <link href="favicon-32x32.png" rel="apple-touch-icon" />
+    <title>Clases de manejo personalizadas</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Dark Blue Theme */
+      body {
+        background-color: #0d1b2a;
+        color: #e0e1dd;
+      }
+      .navbar,
+      footer {
+        background-color: #1b263b;
+      }
+      .navbar-brand,
+      .nav-link,
+      footer a {
+        color: #e0e1dd !important;
+      }
+      .section-title h2 {
+        color: #00b4d8;
+      }
+      .btn-primary {
+        background-color: #0077b6;
+        border: none;
+      }
+      .btn-primary:hover {
+        background-color: #0096c7;
+      }
+      /* Team images full square 600x600 */
+      .team-img {
+        width: 100%; /* ocupa todo el ancho disponible */
+        aspect-ratio: 1 / 1; /* mantiene proporción cuadrada */
+        max-height: 600px; /* límite máximo */
+        object-fit: cover; /* recorta sin deformar */
+        object-position: center;
+        border-radius: 8px; /* opcional, esquinas suaves */
+      }
+      .social-icons a {
+        color: #00b4d8; /* azul eléctrico */
+        font-size: 1.4rem; /* tamaño de ícono */
+        transition: color 0.3s, transform 0.3s;
+      }
+
+      .social-icons a:hover {
+        color: #90e0ef; /* azul más claro al pasar el mouse */
+        transform: scale(1.2); /* efecto zoom */
+      }
+
+      .role {
+        color: #ffffff;
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.6
+        ); /* fondo translúcido para mejor contraste */
+        display: inline-block;
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+      body {
+        background-color: #0d1b2a;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        color: #00b4d8;
+        font-weight: 700;
+      }
+
+      p {
+        color: #d9d9d9;
+      }
+
+      a {
+        color: #00b4d8;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      a:hover {
+        color: #90e0ef;
+      }
+
+      /* Cards / Sections */
+      .card {
+        background-color: #1b263b;
+        border: none;
+        color: #ffffff;
+      }
+
+      .card-body .role {
+        color: #ffffff;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 4px 8px;
+        border-radius: 4px;
+        display: inline-block;
+      }
+
+      /* Accordion FAQ */
+      .accordion-button {
+        background-color: #1b263b;
+        color: #00b4d8;
+        font-weight: 600;
+      }
+
+      .accordion-button:not(.collapsed) {
+        background-color: #0d1b2a;
+        color: #90e0ef;
+        text-shadow: 0 0 6px rgba(0, 180, 216, 0.7);
+      }
+
+      .accordion-body {
+        background-color: #1b263b;
+        color: #ffffff;
+        border-left: 3px solid #00b4d8;
+      }
+
+      /* Social Icons */
+      .social-icons a {
+        color: #00b4d8;
+        font-size: 1.4rem;
+        transition: color 0.3s, transform 0.3s;
+      }
+
+      .social-icons a:hover {
+        color: #90e0ef;
+        transform: scale(1.2);
+      }
+      .card-body p.text-muted {
+        color: #00b4d8 !important; /* azul eléctrico */
+        font-weight: 600;
+      }
+      .card {
+        background-color: #1b263b;
+        color: #e0e1dd;
+        transition: transform 0.3s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      footer {
+        padding-top: 40px;
+      }
+      footer h5 {
+        color: #00b4d8;
+      }
+     
+      html {
+  scroll-behavior: smooth;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="bg-primary text-white py-1">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div>
+          <span class="fw-bold">clases-de-manejo-personalizadas.com</span>
+          <span class="mx-2">|</span>
+          <span>(+506) 8691-7316</span>
+        </div>
+        <div>
+          <a
+            href="https://walink.co/341b8e"
+            class="text-white mx-2"
+            aria-label="Facebook"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/josue.brenesvargas"
+            class="text-white mx-2"
+            aria-label="Facebook"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+            class="text-white mx-2"
+            aria-label="Chrome"
+            ><i class="bi bi-browser-chrome"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/josbrevar07/"
+            class="text-white mx-2"
+            aria-label="Instagram"
+            ><i class="bi bi-instagram"></i
+          ></a>
+
+          <a
+            href="https://www.youtube.com/@josbrevar0773"
+            class="text-white mx-2"
+            aria-label="YouTube"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"
+          >Clases de manejo personalizadas, Josué</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Preguntas frecuentes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#team2">Otros servicios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto y redes sociales</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img
+              src="Yamaha_Yaris.jpg"
+              class="img-fluid rounded"
+              alt="A motorbike and a car"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>
+              Clases de manejo personalizadas, Josué ¡Para servirle!
+              ¡Bienvenido/a!
+            </h2>
+            <p>
+              Clases de manejo para principiantes. Además, le ofrecemos
+              preparación para la(s) prueba(s) práctica(s) de manejo, y así
+              obtener la(s) licencia(s) que usted desea, o necesita obtener.
+              Contáctenos, será un gusto servirle, ayudarle y asesorarle en su
+              proceso.
+            </p>
+            <a href="#team" class="btn btn-primary">Ver servicios</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="section-title">
+          <h2></h2>
+          <p></p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-car-front fs-1 text-success"></i>
+                <h5 class="mt-3">
+                  Clases personalizadas, para licencia tipo B-1 (carro).
+                </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-cone-striped fs-1 text-primary"></i>
+                <h5 class="mt-3">
+                  Clases personalizadas, para licencia tipo A (motos).
+                </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-geo-alt fs-1 text-danger"></i>
+                <h5 class="mt-3">
+                  Llevarlo a que realice su prueba teórica y/o práctica de
+                  manejo, a cualquier sede del país.
+                </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-list-check fs-1 text-warning"></i>
+                <h5 class="mt-3">
+                  Ofrecemos además, sacar cita y llevarle su vehículo a Dekra.
+                </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-wifi fs-1 text-info"></i>
+                <h5 class="mt-3">
+                  Tenemos a su disposición, clases de inglés, personalizadas en
+                  línea o a domicilio.
+                </h5>
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-printer fs-1 text-secondary"></i>
+                <h5 class="mt-3">Impresión / Escaneo</h5>
+                <p>de documentos con entrega a domilicio para su comodidad.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-journal-check fs-1 text-success"></i>
+                <h5 class="mt-3">
+                  Preparación también, para las pruebas teóricas de manejo.
+                </h5>
+                <p>
+                  Examen teórico para licencia A y/o B. También el examen para
+                  transporte público o licencia tipo C-1 y/o C-2.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <a
+              href="https://walink.co/341b8e"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="p-4 text-center border rounded shadow-sm h-100 service-box"
+              >
+                <i class="bi bi-window-desktop fs-1 text-primary"></i>
+                <h5 class="mt-3">
+                  ¿Necesita una página web personal o para su negocio?
+                </h5>
+                <p>Escríbanos o contáctenos si gusta.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Counters -->
+    <section id="counters" class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <i class="bi bi-emoji-smile fs-1 text-success"></i>
+            <h2 class="counter" data-target="75">0</h2>
+            <p>
+              personas llevadas, a la sede de su prueba práctica. Y la han
+              aprobado.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <i class="bi bi-journal-text fs-1 text-primary"></i>
+            <h2 class="counter" data-target="30">0</h2>
+            <p>personas, han aprobado su prueba teórica.</p>
+          </div>
+          <div class="col-md-3">
+            <i class="bi bi-list-check fs-1 text-warning"></i>
+            <h2 class="counter" data-target="60">0</h2>
+            <p>
+              vehículos se les ha sacado la cita, y han sido llevados a la IVE
+              (Inspección Técnica Vehicular) (DEKRA).
+            </p>
+          </div>
+          <div class="col-md-3">
+            <i class="bi bi-whatsapp fs-1 text-danger"></i>
+            <h2 class="" data-target="">24/7</h2>
+            <p>
+              Tratamos de contestar los mensajes a la brevedad posible. Al
+              WhatsApp o alguna otra red social.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="py-5">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Servicios que tenemos, a su completa disposición</h2>
+          <p>Si necesita alguno no dude, en contactarnos</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img src="Toyota_yaris.jpg" class="card-img-top" alt="A car" />
+              <div class="card-body">
+                <h5>Clases de manejo personalizadas, para carro.</h5>
+                <p class="text-muted">-Principiante.</p>
+                <p class="text-muted">-Intermedio.</p>
+                <p class="text-muted">-Avanzado.</p>
+                <p class="text-muted">-Automático-manual.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="Yamaha_mt07.jpg"
+                class="card-img-top"
+                alt="A motorbike"
+              />
+              <div class="card-body">
+                <h5>Clases de manejo personalizadas, para moto.</h5>
+                <p class="text-muted">-Principiante.</p>
+                <p class="text-muted">-Intermedio.</p>
+                <p class="text-muted">-Avanzado.</p>
+                <p class="text-muted">-Cualquier cilindraje.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="Toyota-Yaris-conos.jpg"
+                class="card-img-top"
+                alt="A car with cones"
+              />
+              <div class="card-body">
+                <h5>
+                  Le asesoramos para obtener su licencia de conducir tipo B-1.
+                </h5>
+                <p class="text-muted">-Práctica de zig-zag y reversa.</p>
+                <p class="text-muted">-Lo que debe hacer.</p>
+                <p class="text-muted">-Lo que no debe hacer.</p>
+                <p class="text-muted">-Consejos y más.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="Yamaha_mt07_cones2.jpg"
+                class="card-img-top"
+                alt="A motorbike with cones"
+              />
+              <div class="card-body">
+                <h5>
+                  Le asesoramos para obtener su licencia de conducir tipo A.
+                </h5>
+                <p class="text-muted">-Práctica de zig zag.</p>
+                <p class="text-muted">-Lo que debe hacer.</p>
+                <p class="text-muted">-Lo que no debe hacer.</p>
+                <p class="text-muted">-Consejos y más.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="sede_cosevi_puntarenas.jpg"
+                class="card-img-top"
+                alt="Sede Puntarenas"
+              />
+              <div class="card-body">
+                <h5>
+                  Lo llevamos a cualquier sede del país para que realice su
+                  prueba práctica de manejo.
+                </h5>
+                <p class="text-muted">
+                  -A cualquiera de las 13 sedes del país.
+                </p>
+                <p class="text-muted">-Prueba de manejo, licencia tipo B-1.</p>
+                <p class="text-muted">-Prueba de manejo, licencia tipo A.</p>
+                <p class="text-muted">
+                  -Prueba de manejo para, cualquier otro tipo de licencia.
+                </p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="plantel_Paso_Ancho_prueba_teorica.jpg"
+                class="card-img-top"
+                alt="Sede San Sebastián"
+              />
+              <div class="card-body">
+                <h5>
+                  Lo llevamos a cualquier sede del país para que realice su
+                  prueba teórica de manejo.
+                </h5>
+                <p class="text-muted">
+                  -A cualquiera de las 13 sedes del país.
+                </p>
+                <p class="text-muted">
+                  -Solo escríbanos para ayudarle, si gusta.
+                </p>
+                <p class="text-muted">-¿Necesita repasar para el examen?</p>
+                <p class="text-muted">
+                  -¿Tiene alguna duda sobre el examen? Contáctenos, si gusta.
+                </p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="cosevi_ciudad_vial_2.jpg"
+                class="card-img-top"
+                alt="Ciudad Vial"
+              />
+              <div class="card-body">
+                <h5>
+                  Lo llevamos a cualquier sede del país para que pueda solicitar
+                  el usuario de Cosevi.
+                </h5>
+                <p class="text-muted">-Si no lo tiene todavía.</p>
+                <p class="text-muted">
+                  -A cualquiera de las, 13 sedes del país.
+                </p>
+                <p class="text-muted">
+                  -Para que pueda matricular tanto, su prueba teórica como
+                  práctica.
+                </p>
+                <p class="text-muted">
+                  -Sin el usuario no puede matricular ninguna prueba.
+                </p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="Dekra_JBV.jpg"
+                class="card-img-top"
+                alt="Dekra station Coyol Alajuela"
+              />
+              <div class="card-body">
+                <h5>
+                  Le sacamos la cita y llevamos, su vehículo a Dekra, si no
+                  tiene tiempo para ello. ¡Será un gusto poder servirle!
+                </h5>
+                <p class="text-muted">-Automóvil, SUV, Pick up.</p>
+                <p class="text-muted">-Camión, hasta 8000 KG.</p>
+                <p class="text-muted">-Moto.</p>
+                <p class="text-muted">-Taxi.</p>
+                <p class="text-muted">-Buseta.</p>
+                <p class="text-muted">-Grabación del recorrido.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-5 bg-dark text-light">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Preguntas frecuentes</h2>
+          <p>
+            La mayoría de la información ha sido tomada de la página web de
+            Educación Vial, del MOPT, de la Ley de Tránsito 9078 y de la página
+            de citas del Banco de Costa Rica.
+          </p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <!-- Item 1 (open by default) -->
+          <div class="accordion-item bg-dark border-0">
+            <h2 class="accordion-header" id="q1">
+              <button
+                class="accordion-button bg-dark text-info fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a1"
+                aria-expanded="true"
+                aria-controls="a1"
+              >
+                1. ¿Qué necesito para obtener la(s) licencia(s) de conducir en
+                Costa Rica?
+              </button>
+            </h2>
+            <div
+              id="a1"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body text-light">
+                Lo primero que debe hacer es presentarse en una oficina de
+                COSEVI, preferiblemente la más cercana a su domicilio. Debe
+                llevar su cédula de identidad y un correo electrónico personal.
+                Una vez hecho esto, le asignan un usuario para matricular la
+                prueba teórica y la práctica de manejo. Desde mayo 2023, en caso
+                de ser menor de edad, debe ir acompañado de su padre, madre o
+                encargado legal.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a2"
+              >
+                2. ¿Cuánto valen o cuestan, el curso básico de manejo, o pruebas
+                teóricas y pruebas prácticas?
+              </button>
+            </h2>
+            <div
+              id="a2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Cada uno de los cursos y pruebas por el momento, tienen un valor
+                o un costo de ₡5000.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a3"
+              >
+                3. ¿Cuál es la nota mínima para aprobar los cursos básicos de
+                manejo o exámenes teóricos y las pruebas prácticas de manejo?
+              </button>
+            </h2>
+            <div
+              id="a3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  Las pruebas teóricas y cursos básicos de manejo hoy día, se
+                  aprueban con una nota de 70.
+                </p>
+                <p>
+                  Las pruebas prácticas de manejo hoy día, se aprueban con una
+                  nota de 80.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q4">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a4"
+              >
+                4. ¿Cuáles son los las faltas de 22 puntos, en la prueba
+                práctica de manejo?
+              </button>
+            </h2>
+            <div
+              id="a4"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -(Categoría 1) Si se cometiera alguna de estas faltas,
+                  automáticamente pierde su prueba. Es decir, listo pa' la foto
+                  🤣.
+                </p>
+                <p>
+                  -1. Presentarse a la prueba bajo la influencia de alcohol,
+                  drogas o en una condición similar.
+                </p>
+                <p>
+                  -2. Realizar adelantamientos durante la prueba en curvas,
+                  intersecciones, pasos a nivel de ferrocarril, puentes,
+                  túneles, pasos a desnivel, por los costados de la vía o por el
+                  lado derecho, y en zonas marcadas con línea de barrera o línea
+                  central continua.
+                </p>
+                <p>
+                  -3. Efectuar giros en U prohibidos en cualquier sección de la
+                  prueba práctica.
+                </p>
+                <p>-4. Desacato a la señalización vertical y horizontal.</p>
+                <p>
+                  -5. Ignorar la luz roja del semáforo, salvo en las excepciones
+                  del artículo 104 de la Ley número 9078.
+                </p>
+                <p>
+                  -6. Exceder los 40 km por hora sobre el límite de velocidad
+                  establecido en el recorrido de la prueba.
+                </p>
+                <p>
+                  -7. El vehículo presenta una falla mecánica que impide
+                  continuar con la evaluación de la prueba práctica.
+                </p>
+                <p>
+                  -8. Llegar más de 5 minutos tarde a la Prueba Práctica de
+                  Manejo, después de la hora matriculada.
+                </p>
+                <p>
+                  -9. El vehículo es diferente al registrado según la
+                  documentación proporcionada.
+                </p>
+                <p>-10. La luz de freno principal no funciona correctamente.</p>
+                <p>
+                  -11. Las señales direccionales no funcionan correctamente.
+                </p>
+                <p>
+                  -12. Conducir sobre la acera en cualquier parte del recorrido
+                  de la prueba práctica.
+                </p>
+                <p>-13. Colisionar su vehículo o atropellar a alguien.</p>
+                <p>
+                  -14. Motociclista sufre caída durante la prueba de manejo.
+                </p>
+                <p>
+                  -15. No lleva puesto correctamente el casco de seguridad en
+                  moto, bicimoto, triciclo o cuadriciclo.
+                </p>
+                <p>
+                  -16. Conducir a más de 25 km por hora cerca de escuelas,
+                  centros de salud o en áreas con alta concentración de
+                  personas.
+                </p>
+                <p>-17. El velocímetro no funciona o solo marca en millas.</p>
+                <p>-18. Botar y/o tocar cono o señal móvil.</p>
+                <p>
+                  -19. Uso de cualquier dispositivo durante la prueba práctica
+                  que requiera liberar alguna mano del volante.
+                </p>
+                <p>
+                  -20. El cinturón de seguridad de tres puntos se encuentra
+                  dañado o no está ajustado.
+                </p>
+                <p>
+                  -21. Motociclista se apoya con alguno de sus pies en el suelo,
+                  durante su paso en las líneas paralelas o zig-zag.
+                </p>
+                <p>
+                  -22. Conducción de motocicleta fuera de la línea guía, en
+                  líneas paralelas.
+                </p>
+                <p>
+                  -23. El vehículo no está adaptado según la recomendación
+                  técnica o médica, en el caso de una persona con discapacidad.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q5">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a5"
+              >
+                5. ¿Cuáles son los las faltas de 12 puntos, en la prueba
+                práctica de manejo?
+              </button>
+            </h2>
+            <div
+              id="a5"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -(Categoría 2) Si se cometiera alguna de estas faltas, puede
+                  continuar con su prueba. Sin embargo, si comete 2 faltas de
+                  esta categoría, pierde la prueba automáticamente.
+                </p>
+                <p>
+                  -1. No encender las luces reglamentarias durante los horarios
+                  establecidos por ley.
+                </p>
+                <p>
+                  -2. Rebasar a un vehículo detenido frente a una zona de paso
+                  peatonal.
+                </p>
+                <p>
+                  -3. Conducir a más de 30 km por encima del límite establecido.
+                </p>
+                <p>
+                  -4. Motociclista rebasando en medio de vehículos con una
+                  velocidad de 25 km por hora, o superior.
+                </p>
+                <p>-5. Obstruir el paso del tren o ciclovía.</p>
+                <p>
+                  -6. No respetar el orden de prioridad de paso en
+                  intersecciones.
+                </p>
+                <p>-7. No utilizar las señales direccionales.</p>
+                <p>-8. Uso incorrecto de las señales direccionales.</p>
+                <p>-9. Llantas en mal estado o desgastadas.</p>
+                <p>
+                  -10. Saca la cabeza fuera del vehículo mientras conduce en
+                  reversa.
+                </p>
+                <p>
+                  -11. Motociclista sin la vestimenta retroreflectiva o cinta
+                  reflectiva.
+                </p>
+                <p>
+                  -12. Motociclista no enciende la luz durante el inicio o
+                  recorrido de prueba.
+                </p>
+                <p>
+                  -13. No ceder el paso a los peatones en las zonas señalizadas
+                  o indicadas por la normativa.
+                </p>
+                <p>-14. No respetar las normas de estacionamiento.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q6">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a6"
+              >
+                6. ¿Cuáles son los las faltas de 6 puntos, en la prueba práctica
+                de manejo?
+              </button>
+            </h2>
+            <div
+              id="a6"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -(Categoría 3) Si se cometiera alguna de estas faltas, puede
+                  continuar con su prueba. Sin embargo, si comete 4 faltas de
+                  esta categoría, pierde la prueba automáticamente.
+                </p>
+                <p>
+                  -1. Puertas abiertas durante el recorrido en vehículo de
+                  transporte público, bus(eta).
+                </p>
+                <p>-2. Bloquear intersecciones.</p>
+                <p>
+                  -3. Detener el vehículo en señal de CEDA sin justificación
+                  alguna.
+                </p>
+                <p>-4. Vehículo manual se apaga al salir en marcha.</p>
+                <p>-5. No se ejecutan los cambios de marcha adecuados.</p>
+                <p>
+                  -6. En pendiente, el vehículo se desplaza o retrocede al
+                  iniciar la marcha.
+                </p>
+                <p>
+                  -7. Sincronización incorrecta de los mandos del embrague y el
+                  acelerador.
+                </p>
+                <p>-8. No se efectúan los cambios de marcha.</p>
+                <p>-9. No sabe realizar el cambio de luces.</p>
+                <p>-10. Freno de mano en mal estado.</p>
+                <p>-11. Conduce con el freno de mano activado.</p>
+                <p>
+                  -12. Conduce con una sola mano en el volante sin necesidad
+                  justificada (algún tipo de discapacidad).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q7">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a7"
+              >
+                7. ¿Cuáles son los las faltas de 4 puntos, en la prueba práctica
+                de manejo?
+              </button>
+            </h2>
+            <div
+              id="a7"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -(Categoría 4) Si se cometiera alguna de estas faltas, puede
+                  continuar con su prueba. Sin embargo, si comete 6 faltas de
+                  esta categoría, pierde la prueba automáticamente.
+                </p>
+                <p>-1. Abandono del recorrido oficial de la prueba.</p>
+                <p>
+                  -2. No realiza correctamente el ejercicio mencionado con
+                  anterioridad.
+                </p>
+                <p>-3. Luz de freno superior (tercer luz) en mal estado.</p>
+                <p>
+                  -4. Detiene vehículo completamente, realizando el zig-zag.
+                </p>
+                <p>
+                  -5. Se desvió del carril hacia adelante en la pista de conos.
+                </p>
+                <p>
+                  -6. Detiene el vehículo completamente durante la prueba de
+                  reversa.
+                </p>
+                <p>
+                  -7. Mantiene el pie izquierdo encima del pedal de embrague o
+                  freno durante el recorrido de la prueba.
+                </p>
+                <p>-8. Luces altas o bajas defectuosas.</p>
+                <p>
+                  -9. No existencia de "búmper" trasero o delantero, o
+                  "guardabarro".
+                </p>
+                <p>-10. Limpiaparabrisas inexistentes o en mal estado.</p>
+                <p>-11. Parabrisas de atrás en mal estado.</p>
+                <p>-12. Parabrisas de adelante en mal estado.</p>
+                <p>-13. Vidrios de los lados dañados.</p>
+                <p>-14. Pito defectuoso.</p>
+                <p>
+                  -15. Luces indicadoras de marcha atrás en mal estado o
+                  inexistentes.
+                </p>
+                <p>
+                  -16. Gira el torso y voltea el cuerpo al conducir en reversa.
+                </p>
+                <p>
+                  -17. Se desvió del carril completamente, en reversa en la
+                  pista de conos.
+                </p>
+                <p>-18. Luces de emergencia defectuosas.</p>
+                <p>-19. Falta algún espejo retrovisor lateral.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="8">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a8"
+              >
+                8. ¿Cuál es la edad mínima, para hacer el curso básico de manejo
+                o únicamente el examen teórico y la prueba práctica de manejo?
+              </button>
+            </h2>
+            <div
+              id="a8"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  Desde los 13 años de edad, las personas pueden hacer el curso
+                  básico de manejo o únicamente el examen teórico.
+                </p>
+                <p>
+                  La licencia tipo A-1, se puede obtener desde los 16 años. (Es
+                  la única a la que un menor de edad puede aspirar) y cumplir
+                  con sus respectivos requisitos.
+                </p>
+                <p>
+                  Las licencias tipo A-2 y A-3, se pueden obtener desde los 18
+                  años y cumplir con sus respectivos requisitos.
+                </p>
+                <p>
+                  La licencia B-1, se puede obtener desde los 18 años de edad y
+                  cumplir con sus respectivos requisitos.
+                </p>
+                <p>
+                  La licencia B-2, se puede obtener desde los 20 años de edad y
+                  cumplir con sus respectivos requisitos.
+                </p>
+                <p>
+                  Las licencias B-3, y B-4, se pueden obtener desde los 22 años
+                  de edad y cumplir con sus respectivos requisitos.
+                </p>
+                <p>
+                  Las licencias C-1 y/o C-2, se pueden obtener desde los 21 años
+                  de edad y cumplir con sus respectivos requisitos. Además, para
+                  aspirar a estas licencias se debe haber aprobado, el curso de
+                  relaciones humanas y/o transporte público.
+                </p>
+                <p>
+                  Las licencias tipo D-1, D-2 y D-3 se pueden obtener desde los
+                  18 años de edad y cumplir con sus respectivos requisitos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q9">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a9"
+              >
+                9. ¿Existen o hay más cursos aparte del curso básico de manejo o
+                únicamente hacer el examen teórico de manejo?
+              </button>
+            </h2>
+            <div
+              id="a9"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Sí, efectivamente hay otros cursos o modalidades, como por
+                  ejemplo:
+                </p>
+                <p>
+                  -1. Curso regular. Se asiste durante una semana a las clases
+                  obligatorias y el viernes, que es el último día, presenta el
+                  examen.
+                </p>
+                <p>
+                  -2. Curso por tutoría. Tiene una duración de dos días. El
+                  estudiante debe asistir obligatoriamente el primer día para
+                  resolver dudas, y el segundo día, que marca el cierre de esta
+                  modalidad, presenta el examen.
+                </p>
+                <p>
+                  -3. Suficiencia. La persona se prepara por cuenta propia y
+                  únicamente se presenta al examen.
+                </p>
+                <p>
+                  -4. Cursos para personas iletradas. El participante debe
+                  asistir obligatoriamente a clases durante cuatro días, de
+                  lunes a jueves. El quinto día, viernes, se aplica el examen
+                  teórico. Además, debe presentar una certificación oficial
+                  emitida por la Dirección Regional de Educación
+                  correspondiente, que confirme que no ha finalizado los
+                  estudios de primaria (I y II ciclos).
+                </p>
+                <p>
+                  -5. Cursos para personas sordas. Asiste durante una semana a
+                  las clases obligatorias y el viernes, que es el último día,
+                  presenta el examen. Con un curso especial para personas con
+                  este tipo de discapacidad.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q10">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a10"
+              >
+                10. ¿Dónde puedo realizar mi prueba teórica y/o práctica de
+                manejo?
+              </button>
+            </h2>
+            <div
+              id="a10"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  Las pruebas teóricas y/o prácticas, se pueden realizar en
+                  cualquiera de las 13 oficinas de Cosevi a nivel nacional.
+                  Siempre y cuando, se encuentren citas disponibles, en la
+                  oficina de preferencia, a la hora de realizar su matrícula.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q11">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a11"
+              >
+                11. ¿Dónde se encuentran las oficinas de Cosevi, a nivel
+                nacional?
+              </button>
+            </h2>
+            <div
+              id="a11"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-1. Oficinas centrales, San José.</p>
+                <p>-2. Oficina en Alajuela.</p>
+                <p>-3. Oficina en Cartago.</p>
+                <p>-4. Oficina en Guápiles.</p>
+                <p>-5. Oficina en Heredia.</p>
+                <p>-6. Oficina en Liberia.</p>
+                <p>-7. Oficina en Limón.</p>
+                <p>-8. Oficina en Nicoya.</p>
+                <p>-9. Oficina en Pérez Zeledón.</p>
+                <p>-10. Oficina en Puntarenas.</p>
+                <p>-11. Oficina en Río Claro.</p>
+                <p>-12. Oficina en San Carlos.</p>
+                <p>-13. Oficina en San Ramón.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q12">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a12"
+              >
+                12. ¿Cuáles son los tipos de licencia(s) de conducir, que
+                existen en Costa Rica?
+              </button>
+            </h2>
+            <div
+              id="a12"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Tipo A, Motocicletas-cuadraciclos.</p>
+                <p>-Tipo B, Liviano-pesado.</p>
+                <p>-Tipo C, Transporte público.</p>
+                <p>-Tipo D, Equipo o maquinaria especial.</p>
+                <p>-Tipo E, Profesionales.</p>
+                <p>
+                  -Licencias para ciclistas sin embargo, estas son opcionales.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q13">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a13"
+              >
+                13. ¿Cuáles son los tipos de licencia(s) A, que existen?
+              </button>
+            </h2>
+            <div
+              id="a13"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Tipo A-1, permite conducir motos de 0 cc, hasta 125 cc.
+                  Cuadras y triciclos, hasta 250 cc. Motores que funcionen con
+                  electricidad, hasta 11 Kilowatts de potencia.
+                </p>
+                <p>
+                  -Tipo A-2, permite conducir motos de 126 cc, hasta 500 cc.
+                  Cuadras y triciclos, de 251 cc. hasta 500 cc. Motores que
+                  funcionen con electricidad, de 11 Kilowatts hasta 35
+                  Kilowatts, de potencia.
+                </p>
+                <p>
+                  -Tipo A-3, permite conducir motos, cuadras de 501 cc, hacia
+                  arriba. Motores que funcionen con electricidad mayores a, 35
+                  Kilowatts de potencia.
+                </p>
+                <p>
+                  -En este tipo de licencia, la mayor suprime a la(s)
+                  anterior(es).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q14">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a14"
+              >
+                14. ¿Cuáles son los tipos de licencia(s) B, que existen?
+              </button>
+            </h2>
+            <div
+              id="a14"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Tipo B-1, permite conducir vehículos de hasta 4000 Kg de
+                  peso.
+                </p>
+                <p>
+                  -Tipo B-2, permite conducir vehículos entre 4001 Kg, y 8000 Kg
+                  de peso.
+                </p>
+                <p>
+                  -Tipo B-3, permite conducir vehículos de 8001 Kg, de peso
+                  hacia arriba excepto vehículos articulados.
+                </p>
+                <p>-Tipo B-4, permite conducir vehículos articulados.</p>
+                <p>
+                  -En este tipo de licencia, la mayor suprime a la(s)
+                  anterior(es).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q15">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a15"
+              >
+                15. ¿Cuáles son los tipos de licencia(s) C, que existen?
+              </button>
+            </h2>
+            <div
+              id="a15"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Tipo C-1, permite únicamente a conducir taxis.</p>
+                <p>
+                  -Tipo C-2, permite únicamente a conducir buses y/o busetas,
+                  con placas de transporte público. Si el bus o buseta tiene
+                  placas particulares se puede conducir con licencia tipo B,
+                  dependiendo del peso del vehículo. Más información sobre
+                  licencias tipo B, (pregunta anterior o # 13).
+                </p>
+                <p>
+                  -En este tipo de licencia, la mayor no suprime a la(s)
+                  anterior(es). Porque cada una es exclusiva para su respectivo
+                  tipo. Sin embargo, si alguna persona cuenta con licencia tipo
+                  C-1 y/o C-2 esta suprime a la B-1. Es decir, si cuenta con
+                  alguna de las 2 o las 2 no es necesario que renueve la B-1.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q16">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a16"
+              >
+                16. ¿Cuáles son los tipos de licencia(s) D, que existen?
+              </button>
+            </h2>
+            <div
+              id="a16"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Tipo D-1, permite conducir tractores de llanta.</p>
+                <p>-Tipo D-2, permite conducir tractores de oruga.</p>
+                <p>
+                  -Tipo D-3, permite conducir cualquier otro equipo especial,
+                  que no sea contemplado como D-1 y/o D-2. Por ejemplo: grúas,
+                  montacargas, excavadoras, dragas entre otros.
+                </p>
+                <p>
+                  -En este tipo de licencia, la mayor no suprime a la(s)
+                  anterior(es). Porque cada una es exclusiva para su respectivo
+                  tipo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q17">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a17"
+              >
+                17. ¿Cuáles son los tipos de licencia(s) E, que existen?
+              </button>
+            </h2>
+            <div
+              id="a17"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Tipo E-1, Al año de haber adquirido, las licencias tipo: A-3
+                  + B-4.
+                </p>
+                <p>
+                  -Tipo E-2, Al año de haber adquirido, las licencias tipo: A-3
+                  + B-4 + D-1 + D-2 + D-3.
+                </p>
+                <p>
+                  -En este tipo de licencia, la mayor suprime a la(s)
+                  anterior(es).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q18">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a18"
+              >
+                18. ¿Cuáles son los requisitos, para obtener licencia tipo A?
+              </button>
+            </h2>
+            <div
+              id="a18"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Aprobación del curso básico de manejo o examen teórico.</p>
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Placa metálica en el lugar correspondiente y sticker de placa
+                  visible.
+                </p>
+                <p>
+                  -Revisión técnica vehicular al día, marchamo y tarjeta de
+                  propiedad.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>
+                  -Si recién se compró o es nueva, se debe presentar placa AGV,
+                  esta debe ser original, con el recibo de la compra,
+                  (foto)copias no se aceptan.
+                </p>
+                <p>
+                  -Tarjeta válida donde se muestren las características del
+                  vehículo, como estilo, color, año, cilindraje.
+                </p>
+                <p>
+                  -Todos los papeles o documentos presentados deben ser
+                  originales, no se aceptan (foto)copias.
+                </p>
+                <p>
+                  -Recomendaría tener en cuenta, el tipo de licencia para el
+                  cual usted necesita o desea adquirir. Porque este tipo de
+                  licencia tiene varios tipos, de acuerdo al cilindraje de la
+                  motocicleta para la prueba práctica. Así que, para que tenga
+                  cuidado también cuando realiza el pago del examen. Más
+                  información, sobre los tipos de licencia, de acuerdo a su
+                  respectivo cilindraje, lo puede encontrar en la pregunta # 12.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q19">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a19"
+              >
+                19. ¿Cuáles son los requisitos, para obtener licencia tipo A-1,
+                en el caso de menores de edad?
+              </button>
+            </h2>
+            <div
+              id="a19"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-La persona debe tener 16 años cumplidos.</p>
+                <p>
+                  -Identificación vigente y en buen estado, de menor de edad o
+                  acta de nacimiento.
+                </p>
+                <p>
+                  -Mostrar documento legal de autorización de los padres,
+                  curador, tutor o representante legal, validado por un abogado,
+                  si el autorizante no está presente.
+                </p>
+                <p>
+                  -Seguro del INS para este tipo de licencia, según las
+                  coberturas vigentes.
+                </p>
+                <p>
+                  -Además, cumplir con los requisitos generales para la
+                  obtención de licencias Tipo A (pregunta anterior, o # 17).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q20">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a20"
+              >
+                20. ¿Cuáles son los requisitos, para obtener licencia tipo B-1?
+              </button>
+            </h2>
+            <div
+              id="a20"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Aprobación del curso básico de manejo o examen teórico.</p>
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>-La persona debe ser mayor de edad, (18 años).</p>
+                <p>
+                  -Revisión técnica vehicular al día, marchamo y tarjeta de
+                  propiedad.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>-Vehículo en excelente estado.</p>
+                <p>
+                  -Si recién se compró o es nuevo, hay que presentar la
+                  matrícula AGV, esta debe ser original, con recibo de la
+                  compra, (foto)copias no se aceptan.
+                </p>
+                <p>
+                  -Todos los papeles o documentos presentados, deben ser
+                  originales, no se aceptan (foto)copias.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q21">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a21"
+              >
+                21. ¿Cuáles son los requisitos, para obtener licencia tipo B-2?
+              </button>
+            </h2>
+            <div
+              id="a21"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Contar con una licencia clase B o C, emitida hace al menos 2
+                  años.
+                </p>
+                <p>-Ser mayor de 20 años.</p>
+                <p>
+                  -Revisión técnica vehicular al día, marchamo y tarjeta de
+                  propiedad.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>-Vehículo en excelente estado.</p>
+                <p>-Vehículo con un peso entre 4001 kg y 8000 kg.</p>
+                <p>-Proporcionar tarjeta de pesos y dimensiones.</p>
+                <p>
+                  -Todos los papeles o documentos presentados deben ser
+                  originales, no se aceptan (foto)copias.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q22">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a22"
+              >
+                22. ¿Cuáles son los requisitos, para obtener licencia tipo B-3?
+              </button>
+            </h2>
+            <div
+              id="a22"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Contar con una licencia clase B o C, emitida hace al menos 3
+                  años.
+                </p>
+                <p>-Ser mayor de 22 años.</p>
+                <p>
+                  -Revisión técnica vehicular al día, marchamo y tarjeta de
+                  propiedad.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>-Vehículo en excelente estado.</p>
+                <p>
+                  -Vehículo con un peso superior a 8001 kg, excepto vehículo
+                  articulado.
+                </p>
+                <p>-Proporcionar tarjeta de pesos y dimensiones.</p>
+                <p>
+                  -Todos los papeles o documentos presentados deben ser
+                  originales, no se aceptan (foto)copias.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q23">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a23"
+              >
+                23. ¿Cuáles son los requisitos, para obtener licencia tipo B-4?
+              </button>
+            </h2>
+            <div
+              id="a23"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Contar con una licencia clase B o C, emitida hace al menos 3
+                  años.
+                </p>
+                <p>-Ser mayor de 22 años.</p>
+                <p>
+                  -Revisión técnica vehicular al día, marchamo y tarjeta de
+                  propiedad.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>-Vehículo en excelente estado.</p>
+                <p>
+                  -Vehículos con un peso superior a 8001 kg, y vehículo
+                  articulado.
+                </p>
+                <p>-Proporcionar tarjeta de pesos y dimensiones.</p>
+                <p>
+                  -Todos los papeles o documentos presentados deben ser
+                  originales, no se aceptan (foto)copias.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q24">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a24"
+              >
+                24. ¿Cuáles son los requisitos, para obtener licencia tipo C-1?
+              </button>
+            </h2>
+            <div
+              id="a24"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Contar con una licencia clase B o C, emitida hace al menos 3
+                  años.
+                </p>
+                <p>
+                  -Aprobación del curso básico de manejo + el curso de
+                  transporte público y/o relaciones humanas.
+                </p>
+                <p>-No se debe llevar a cabo la prueba práctica.</p>
+                <p>
+                  -Tramitar la primera solicitud de esta licencia en el
+                  Departamento de Acreditación de Conductores.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q25">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a25"
+              >
+                25. ¿Cuáles son los requisitos, para obtener licencia tipo C-2?
+              </button>
+            </h2>
+            <div
+              id="a25"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Contar con una licencia clase B o C, emitida hace al menos 3
+                  años.
+                </p>
+                <p>
+                  -Aprobación del curso básico de manejo + el curso de
+                  transporte público y/o relaciones humanas.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>
+                  -Revisión técnica vehicular al día, marchamo y tarjeta de
+                  propiedad.
+                </p>
+                <p>
+                  -Documento original y válido donde se muestren las
+                  características del vehículo, como marca, modelo, año, color y
+                  capacidad de pasajeros.
+                </p>
+                <p>
+                  -Todos los papeles presentados deben ser originales, no se
+                  aceptan (foto)copias.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q26">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a26"
+              >
+                26. ¿Qué se debe tomar en cuenta, antes de obtener la licencia
+                C-2?
+              </button>
+            </h2>
+            <div
+              id="a26"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Dependiendo de la cantidad de pasajeros de la buseta, o el
+                  bus que usted haga su prueba, hay varias restricciones.
+                </p>
+                <p>
+                  -Restricción Técnica 1 (RT-1): Buseta de 25 pasajeros. Si
+                  usted hace el examen y lo aprueba, en una buseta de 25
+                  pasajeros o menos, no debería conducir una buseta de 26 o más
+                  pasajeros.
+                </p>
+                <p>
+                  -Restricción Técnica 2 (RT-2): Buseta de 26 a 44 pasajeros. Si
+                  usted hace el examen y lo aprueba, en una buseta de entre 26 y
+                  44 pasajeros no debería conducir un bus de 45 o más pasajeros.
+                </p>
+                <p>
+                  -Sin Restricción Técnica o abierta, bus de 45 pasajeros o más.
+                  Si usted hace el examen y lo aprueba, en este caso podría
+                  manejar cualquier buseta o bus.
+                </p>
+                <p>
+                  -Para que lo tome en cuenta, dependiendo de la capacidad de
+                  pasajeros del vehículo, que usted presente para realizar la
+                  prueba le quedaría, restringida o sin restricción la licencia
+                  tipo C-2, y eso sale en la licencia cuando se la entregan, una
+                  vez aprobado la prueba práctica.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q27">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a27"
+              >
+                27. ¿Cuáles son los requisitos, para obtener licencia tipo D?
+              </button>
+            </h2>
+            <div
+              id="a27"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Aprobación del curso básico de manejo o examen teórico de
+                  manejo.
+                </p>
+                <p>-La persona debe ser mayor de edad, (18 años).</p>
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>-No se debe llevar a cabo la prueba práctica.</p>
+                <p>
+                  -Documento oficial emitido por la Fuerza Pública, la Policía
+                  de Tránsito o una entidad pública o privada, que esté
+                  debidamente firmado y que certifique el dominio y la destreza
+                  del solicitante para manejar el tipo de vehículo requerido.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>
+                  -Presentar una (foto)copia de la cédula de la persona que
+                  suscribe la carta.
+                </p>
+                <p>
+                  -Aclarar el tipo de licencia, es decir, si es para D-1, D-2,
+                  D-3 y el tipo de maquinaria correspondiente.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q28">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a28"
+              >
+                28. ¿Puedo practicar en vía pública, para obtener la(s)
+                licencia(s) de conducir, sin ser multado o castigado?
+              </button>
+            </h2>
+            <div
+              id="a28"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                -Sí, de hecho sí puede. Obteniendo o solicitando, el permiso
+                temporal de manejo.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q29">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a29"
+              >
+                29. ¿Cuáles son los requisitos, para obtener el permiso temporal
+                de conducir, o permiso temporal de manejo?
+              </button>
+            </h2>
+            <div
+              id="a29"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Aprobación del curso básico de manejo o examen teórico de
+                  manejo.
+                </p>
+                <p>
+                  -Sacar cita y solicitarlo, en el Banco de Costa Rica (BCR).
+                </p>
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>-Precio del permiso de conducir, es de ₡500.</p>
+                <p>
+                  -Costo por comisión bancaria: ₡2000, a cancelar en el momento
+                  de la cita.
+                </p>
+                <p>
+                  -Adquirir la "Póliza de Conducir", la cual es por tres meses y
+                  debe llevar la fecha del día de la cita. O para su
+                  conveniencia, también, se puede adquirir en el banco, al
+                  momento de la gestión del permiso de conducir.
+                </p>
+                <p>
+                  -El costo o el valor de la "póliza de conducir", si se compra
+                  en el banco, es de ₡15224.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>-El permiso de conducir expira, a los 3 meses.</p>
+                <p>
+                  -Para renovación del permiso de conducir, el mismo debe estar
+                  expirado o caducado.
+                </p>
+                <p>
+                  -Si ya realizó el pago del trámite de su permiso, presente el
+                  comprobante de pago impreso el día de su cita, asegurándose de
+                  que el número de comprobante sea visible.
+                </p>
+                <p>
+                  -Los montos se cancelan únicamente en efectivo, y en colones o
+                  con tarjeta BCR solamente.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q30">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a30"
+              >
+                30. ¿Puedo conducir únicamente, con el permiso temporal de
+                manejo?
+              </button>
+            </h2>
+            <div
+              id="a30"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Sí, de hecho sí puede. Incluso, por cualquier carretera del
+                  país. Sin embargo, se deben cumplir con ciertos requisitos, en
+                  dado caso de que lo pare un policía (de tránsito), o en caso
+                  de un posible accidente.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q31">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a31"
+              >
+                31. ¿Cuáles son los requisitos, para conducir con el permiso
+                temporal de manejo?
+              </button>
+            </h2>
+            <div
+              id="a31"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Debe o tiene que andar acompañado de alguien que, tenga más
+                  de 5 años de haber obtenido la licencia a la cual usted
+                  aspira, o una licencia superior a la que usted aspira a
+                  obtener.
+                </p>
+                <p>
+                  -Si es en moto o cuadraciclo, ambos deben ir en el mismo
+                  vehículo.
+                </p>
+                <p>
+                  -El permiso temporal de manejo se podría solicitar para
+                  cualquier tipo de licencia. Siempre y cuando, cumpliendo los
+                  requisitos específicos, para aspirar a cada tipo de licencia,
+                  que la persona necesite o requiera.
+                </p>
+                <p>
+                  -Las personas menores de edad, lo pueden solicitar únicamente
+                  para la licencia tipo A-1, a partir desde los 16 años
+                  cumplidos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q32">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a32"
+              >
+                32. ¿Cuáles son los requisitos, para la licencia por primera
+                vez?
+              </button>
+            </h2>
+            <div
+              id="a32"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Haber aprobado la prueba práctica.</p>
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Costo por comisión bancaria: ₡2000, a cancelar en el momento
+                  de la cita.
+                </p>
+                <p>-El precio de la licencia de conducir, es de ₡4000.</p>
+                <p>
+                  -Los montos se cancelan únicamente en efectivo, y en colones o
+                  con tarjeta BCR solamente.
+                </p>
+                <p>
+                  -Si ya realizó el pago del trámite de su licencia, presente el
+                  comprobante de pago impreso el día de su cita, asegurándose de
+                  que el número de comprobante sea visible.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>-La vigencia de la licencia es de 3 años.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q33">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a33"
+              >
+                33. ¿Cuáles son los requisitos, para la renovación de
+                licencia(s)?
+              </button>
+            </h2>
+            <div
+              id="a33"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Sacar cita y solicitarla en el Banco de Costa Rica (BCR).
+                </p>
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Costo por comisión bancaria: ₡2000, a cancelar en el momento
+                  de la cita.
+                </p>
+                <p>
+                  -El costo de la licencia tendría un costo de ₡10 000, si tiene
+                  multas pendientes.
+                </p>
+                <p>
+                  -Si tiene multas pendientes, se cancelan en el mismo momento
+                  de la cita.
+                </p>
+                <p>-Si no tiene multas, la licencia tiene un costo de ₡5000.</p>
+                <p>
+                  -Los montos se cancelan únicamente en efectivo y en colones o
+                  con tarjeta BCR solamente.
+                </p>
+                <p>
+                  -Certificado médico digital, (Válido por 180 días o 6 meses
+                  aproximadamente).
+                </p>
+                <p>
+                  -Se puede renovar si usted lo desea 3 meses antes, de la fecha
+                  del vencimiento de su licencia actual.
+                </p>
+                <p>
+                  -Si ya realizó el pago del trámite de su licencia, presente el
+                  comprobante de pago impreso el día de su cita, asegurándose de
+                  que el número de comprobante sea visible.
+                </p>
+                <p>
+                  -La vigencia de la licencia generalmente, es de 6 años. Sin
+                  embargo, se le podría otorgar por menos tiempo. Si por
+                  ejemplo, tiene puntos acumulados en la licencia. Es decir, si
+                  ha cometido infracciones categoría A, o categoría B, que son
+                  las que acumulan puntos a la(s) licencia(s). Para consultar,
+                  si tiene puntos acumulados o debe de pagar infracciones, sería
+                  directamente en el COSEVI. O también, puede revisar en la
+                  plataforma virtual del BCR en línea, para ver el monto y
+                  pagarlas. O en dado caso, solo verificar, si tiene
+                  infracciones pendientes.
+                </p>
+                <p>
+                  -Importante, si las infracciones tienen o poseen, más de 7
+                  años de estar en firme, no tendría que pagarlas, se podría
+                  solicitar la prescipción de estas, si así usted lo desea.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q34">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a34"
+              >
+                34. ¿Cuáles son los requisitos, para el duplicado de
+                licencia(s)?
+              </button>
+            </h2>
+            <div
+              id="a34"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Sacar cita y solicitarlo en el Banco de Costa Rica (BCR).
+                </p>
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Costo por comisión bancaria: ₡2000, a cancelar en el momento
+                  de la cita.
+                </p>
+                <p>
+                  -Si tiene multas pendientes, se cancelan en el mismo momento
+                  de la cita.
+                </p>
+                <p>-El duplicado de licencia tiene un costo de ₡5000.</p>
+                <p>
+                  -Los montos se cancelan únicamente en efectivo y en colones o
+                  con tarjeta BCR solamente.
+                </p>
+                <p>
+                  -Para el duplicado deberá faltarle más de 3 meses de vigencia,
+                  ya que sino aplicaría como renovación.
+                </p>
+                <p>
+                  -El duplicado conservará la misma fecha de vencimiento de la
+                  licencia actual.
+                </p>
+                <p>
+                  -Si ya realizó el pago del trámite de su licencia, presente el
+                  comprobante de pago impreso el día de su cita, asegurándose de
+                  que el número de comprobante sea visible.
+                </p>
+                <p>
+                  -Importante, si las infracciones tienen o poseen, más de 7
+                  años de estar en firme, no tendría que pagarlas, se podría
+                  solicitar la prescipción de estas, si así usted lo desea.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q35">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a35"
+              >
+                35. ¿Cuáles son los requisitos, para obtener el código conductor
+                del CTP (Consejo de Transporte Público)?
+              </button>
+            </h2>
+            <div
+              id="a35"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-Documento de identificación vigente y en buen estado.</p>
+                <p>
+                  -Licencia(s), esto aplica para los tipos licencia(s) C-1, C-2,
+                  D-1, D-2 y D-3.
+                </p>
+                <p>
+                  -Estar al día y sin morosidad ante la CCSS. Para
+                  permisionarios o concesionarios, Además, es necesario no
+                  poseer deudas pendientes con FODESAF. (Los extranjeros deben
+                  proporcionar su número de asegurado).
+                </p>
+                <p>
+                  -Depósito de ₡200 colones, a la cuenta N°229502-4, del Banco
+                  de Costa Rica (IBAN CR58015201001022950242).
+                </p>
+                <p>-Presentar, Hoja de delincuencia original.</p>
+                <p>-Si es renovación, deberá aportar el código vencido.</p>
+                <p>
+                  -Para la certificación del código de conductor, presentar
+                  (foto)copias de la cédula y de la(s) licencia(s)
+                  correspondiente(s).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q36">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a36"
+              >
+                36. ¿Cuáles son algunas de las Restricciones Físicas o "RF", qué
+                pueden aparecer en la licencia?
+              </button>
+            </h2>
+            <div
+              id="a36"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>-1. RF-A: Usa ortesis (pines o tornillos quirúrgicos).</p>
+                <p>-2. RF-B: Sufre mutilación en alguna de las extremidades.</p>
+                <p>-3. RF-C: Sordomudo.</p>
+                <p>-4. RF-D: Sordo</p>
+                <p>-5. RF-E: Parapecia (parálisis parcial del cuerpo)</p>
+                <p>-6. RF-F: Extremidad superior no funcional.</p>
+                <p>-7. RF-G: Ceguera de un ojo.</p>
+                <p>
+                  -8. RF-H: Parálisis de dorsiflexión (problema en la cadera).
+                </p>
+                <p>-9. RF-I: Secuela de polio en miembro inferior.</p>
+                <p>-10. RF-1: Usa lentes.</p>
+                <p>-11. RF-2: Solo puede manejar de día.</p>
+                <p>-12. RF-3: Conducir solo vehículo automático.</p>
+                <p>-13. RF-4: Conductor solo vehículos adaptados.</p>
+                <p>-14. RF-5: Usa lentes de contacto.</p>
+                <p>-15. RF-6: Usa prótesis.</p>
+                <p>-16. RF-7: Usa audífonos.</p>
+                <p>-17. RF-8: Mutilidad ocular.</p>
+                <p>-18. RF-9: Mutilidad en una de las extremidades</p>
+                <p>-19. RF-90: Usa lentes bifocales</p>
+                <p>-20. RF-91: Usa dientes postizos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q37">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a37"
+              >
+                37. ¿Cuáles son algunas de las Restricciones Técnicas o "RT",
+                qué pueden aparecer en la licencia?
+              </button>
+            </h2>
+            <div
+              id="a37"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -1. RT-1: Solo puede conducir microbuses de 9 hasta 25
+                  pasajeros.
+                </p>
+                <p>
+                  -2. RT-2: Solo puede conducir microbuses de 26 a 44 pasajeros.
+                </p>
+                <p>
+                  -3. RT-3: Solo puede conducir vehículos con adaptaciones
+                  especiales.
+                </p>
+                <p>-4. RT-4: Solo puede conducir triciclos.</p>
+                <p>-5. RT-5: Solo puede conducir vehículos automáticos.</p>
+                <p>
+                  -6. RT-6: Solo puede conducir cuadraciclos de acuerdo al
+                  cilindraje.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q38">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a38"
+              >
+                38. ¿Cuáles son los requisitos para homologación de licencias en
+                Costa Rica?
+              </button>
+            </h2>
+            <div
+              id="a38"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Con el fin de demostrar que se encuentran legalmente en Costa
+                  Rica, debe presentarse la Dirección General de Educación Vial
+                  y deben aportar:
+                </p>
+                <p>
+                  -1. Personas extranjeras: deben entregar un documento
+                  migratorio válido y en condiciones óptimas, tal como lo
+                  establece la Dirección General de Migración y Extranjería
+                  (DIMEX, cédula de residencia, autorización laboral, constancia
+                  de solicitud de refugio, permiso estudiantil, entre otros).
+                </p>
+                <p>
+                  -2. Si no dispone del DIMEX, deberá entregar una constancia de
+                  trámite en formato físico o digital, emitida por la Dirección
+                  General de Migración y Extranjería, conforme a lo establecido
+                  en la modificación del artículo 91 de la Ley N.º 9078.
+                </p>
+                <p>
+                  -3. Ciudadanos costarricenses: deben entregar su documento
+                  nacional de identidad (cédula), válido y en buenas condiciones
+                  físicas.
+                </p>
+                <p>
+                  -4. Se debe entregar la licencia de conducir que se desea
+                  validar; esta debe estar al día y en condiciones óptimas.
+                </p>
+                <p>
+                  -5. Las personas costarricenses o extranjeras que posean una
+                  licencia de conducir emitida en un país distinto al de su
+                  nacionalidad de origen deberán acreditar, por medios legales,
+                  que residían en ese país al momento de obtener dicha licencia.
+                  Esto puede demostrarse mediante documentos como: comprobante
+                  de residencia, cédula local, permiso de trabajo, solicitud de
+                  refugio, sello migratorio en el pasaporte otorgado por
+                  Migración o la autoridad competente, número de seguro social,
+                  o carnet de estudiante.
+                </p>
+                <p>
+                  -6. Cada país verificará su licencia digital por medio del
+                  consulado o embajada, según las reglas vigentes de su
+                  prórroga.
+                </p>
+                <p>
+                  -7. Si la licencia de conducir fue emitida en un idioma
+                  diferente al español, se debe presentar una traducción oficial
+                  realizada por un traductor autorizado por el Ministerio de
+                  Relaciones Exteriores y Culto de Costa Rica, conforme a lo
+                  establecido en el artículo 3 de la Ley N.º 8142. La traducción
+                  puede entregarse en formato digital o impreso.
+                </p>
+                <p>
+                  Nota: En caso de que no haya un traductor oficial debidamente
+                  autorizado por el Ministerio de Relaciones Exteriores y Culto
+                  de Costa Rica, el usuario podrá presentar una traducción de la
+                  licencia de conducir emitida por la embajada o consulado del
+                  país que otorgó dicha licencia. Si tampoco existiera
+                  representación diplomática en Costa Rica, se permitirá
+                  entregar una traducción libre del contenido de la licencia,
+                  acompañada de una declaración jurada firmada ante notario
+                  público. Además, el usuario deberá adjuntar un documento
+                  emitido por el Ministerio de Relaciones Exteriores que
+                  confirme la inexistencia de traductores oficiales para ese
+                  idioma. Si no hay representación diplomática del país de
+                  origen, también deberá presentar constancia oficial del
+                  Ministerio que lo respalde
+                </p>
+                <p>
+                  -8. Cuando existan dudas sobre la autenticidad de la licencia
+                  de conducir o si esta no cumple con los requisitos de
+                  seguridad establecidos por la legislación vial del país
+                  correspondiente, será necesario presentar una certificación
+                  oficial emitida por la entidad responsable de otorgar
+                  licencias en el país de origen. En los casos que lo requieran,
+                  dicha certificación deberá estar debidamente apostillada.
+                  También se aceptará certificación emitida por la embajada o el
+                  consulado correspondiente.
+                </p>
+                <p>
+                  -9. Se debe entregar el pasaporte, ya sea de ciudadanos
+                  costarricenses o extranjeros, con vigencia actual y en
+                  condiciones físicas adecuadas.
+                </p>
+                <p>
+                  -10. Certificado médico digital, (Válido por 180 días o 6
+                  meses aproximadamente).
+                </p>
+                <p>
+                  -11. Si existe alguna variación en el nombre o los apellidos
+                  debido a matrimonio, adopción, reconocimiento, impugnación u
+                  otra razón legal, se deberá presentar el documento oficial que
+                  respalde dicho cambio, emitido por la autoridad administrativa
+                  o judicial competente. Este documento puede entregarse en
+                  formato digital (debe ser descargable) y, si está redactado en
+                  otro idioma, debe acompañarse de una traducción oficial.
+                </p>
+                <p>
+                  -12. Cuando una persona con licencia extranjera solicite
+                  homologar una categoría superior a B-1 o C-2, se reconocerá su
+                  experiencia previa siempre que la licencia indique la fecha en
+                  que obtuvo dicha categoría y que cumpla con los años de
+                  experiencia requeridos. Si la licencia no incluye esa
+                  información, deberá presentar una certificación oficial que
+                  confirme la fecha de emisión y la categoría que desea
+                  homologar en Costa Rica.
+                </p>
+                <p>
+                  -13. Quienes soliciten la homologación de la licencia tipo C-2
+                  deberán completar previamente el curso de transporte público y
+                  cumplir con las condiciones establecidas en la Ley de Tránsito
+                  N.º 9078.
+                </p>
+                <p>
+                  -14. Las personas extranjeras y costarricenses menores de edad
+                  que presenten un permiso o documento de conducir emitido en
+                  otro país no podrán homologarlo directamente en Costa Rica,
+                  conforme a los convenios internacionales vigentes. Antes de
+                  cualquier trámite, se debe realizar un análisis técnico para
+                  verificar si dicho documento cumple con los requisitos y
+                  condiciones equivalentes a una licencia costarricense.
+                </p>
+                <p>
+                  -15. Para validar licencias digitales emitidas por la
+                  República Bolivariana de Venezuela, además de presentar la
+                  licencia de conducir, el usuario deberá aportar uno de los
+                  siguientes documentos:
+                </p>
+                <p>
+                  -Una certificación consular de datos personales, emitida por
+                  el Instituto Nacional de Transporte Terrestre del Ministerio
+                  del Poder Popular para el Transporte del gobierno venezolano,
+                  que incluya la información del sistema nacional de
+                  conductores. Esta certificación debe estar apostillada por la
+                  Oficina de Relaciones Consulares del Ministerio del Poder
+                  Popular para Relaciones Exteriores de Venezuela.
+                </p>
+                <p>
+                  - O bien: Una constancia emitida por el Consulado de Venezuela
+                  en Costa Rica que confirme la acreditación del usuario ante el
+                  Instituto Nacional de Transporte Terrestre del Ministerio
+                  correspondiente del gobierno de Venezuela.
+                </p>
+                <p>
+                  -16. No haber cometido infracciones o tener multas tipo A y/o
+                  B (que son las que acumulan puntos en la(s) licencia(s) según
+                  la Ley N.º 9078 y sus modificaciones, durante el año previo a
+                  la fecha en que se solicita la homologación de la licencia.
+                  (Consultar el inciso f del artículo 84 de dicha ley).
+                </p>
+                <p>
+                  -17. No estar vinculado a ningún delito contemplado en el
+                  artículo 254 bis de la Ley N.º 4573 y sus modificaciones,
+                  durante el período previo a la solicitud de homologación.
+                  (Consultar inciso f del artículo 84 de la Ley N.º 9078 y sus
+                  reformas)."
+                </p>
+                <p>
+                  -18. La cita debe gestionarse en línea en
+                  www.educacionvial.go.cr.
+                </p>
+                <p>-19. Se sugiere aportar fotocopias de la documentación.</p>
+                <p>
+                  - Una vez hecho la homologación en la Dirección General de
+                  Educación Vial, la persona interesada debe sacar cita y acudir
+                  a una oficina del Banco de Costa Rica, para el retiro del tipo
+                  de licencia correspondiente, con los siguientes requisitos:
+                </p>
+                <p>-20. Cédula de identidad vigente y en buen estado.</p>
+                <p>
+                  -21. Certificado médico digital, (Válido por 180 días o 6
+                  meses aproximadamente).
+                </p>
+                <p>-22. El precio de la licencia de conducir, es de ₡4000.</p>
+                <p>
+                  -23. Costo por comisión bancaria: ₡2000, a cancelar en el
+                  momento de la cita.
+                </p>
+                <p>
+                  -24. Si tiene multas pendientes, se cancelan en el mismo
+                  momento de la cita.
+                </p>
+                <p>
+                  -Si es para la licencia B-2 debe tener 20 años cumplidos, de
+                  acuerdo estipulado a la ley 9078 de Costa Rica.
+                </p>
+                <p>
+                  -Si es para la(s) licencia B-3 y/o B-4 debe tener 22 años
+                  cumplidos, de acuerdo estipulado a la ley 9078 de Costa Rica.
+                </p>
+                <p>-La vigencia de la licencia es de 3 años.</p>
+                <p>
+                  -Registrar el tipo de licencia validada mediante homologación,
+                  ya sea en formato escrito o digital.
+                </p>
+                <p>
+                  -Si la homologación aún no aparece en el sistema de DGEV, se
+                  recomienda verificar directamente con la entidad.
+                </p>
+                <p>
+                  -En caso de que su licencia de conducir esté vinculada a su
+                  pasaporte, deberá acudir a la DGEV para actualizar sus datos y
+                  modificar el documento de identificación registrado
+                </p>
+                <p>
+                  -Documento de identificación vigente y en buen estado. Si no
+                  no podrá realizar la gestión.
+                </p>
+                <p>
+                  -Los certificados médicos digitales solo serán válidos si se
+                  entregan junto con alguno de estos documentos: cédula
+                  nacional, carné provisional, cédula diplomática, DIMEX o el
+                  número completo SR del trámite migratorio.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q39">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a39"
+              >
+                39. ¿Cómo funciona la restricción vehicular en San José centro y
+                alrededores, ruta 39 o conocida como Circunvalación?
+              </button>
+            </h2>
+            <div
+              id="a39"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -La restricción de vehículos, es aplicada en un horario de
+                  6:00 a.m. a 7:00 p.m.
+                </p>
+                <p>
+                  -Lunes, no deberían entrar a San José, las placas terminadas
+                  en 1 y 2.
+                </p>
+                <p>
+                  -Martes, no deberían entrar a San José, las placas terminadas
+                  en 3 y 4.
+                </p>
+                <p>
+                  -Miércoles, no deberían entrar a San José, las placas
+                  terminadas en 5 y 6.
+                </p>
+                <p>
+                  -Jueves, no deberían entrar a San José, las placas terminadas
+                  en 7 y 8.
+                </p>
+                <p>
+                  -Viernes, no deberían entrar a San José, las placas terminadas
+                  en 9 y 0.
+                </p>
+                <p>
+                  -Los sábados, domingos, días feriados y períodos de vacaciones
+                  escolares, no es aplicada la restricción vehicular.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q40">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a40"
+              >
+                40. ¿Cuáles son las excepciones a la restricción vehicular, en
+                San José y alrededores, ruta 39 o conocida como Circunvalación?
+              </button>
+            </h2>
+            <div
+              id="a40"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -Vehículos de emergencias, como ambulancias, bomberos y
+                  policías.
+                </p>
+                <p>
+                  -Vehículos de transporte público, taxis de carga también,
+                  todos eso sí, debidamente identificados y con sus respectivos
+                  permisos.
+                </p>
+                <p>
+                  -Vehículos conducidos por personas con discapacidad, o que se
+                  usen para transportarlas, siempre que tengan la identificación
+                  correspondiente.
+                </p>
+                <p>
+                  -Vehículos cuyo uso está reservado de forma exclusiva al
+                  manejo de emergencias o al mantenimiento de servicios
+                  públicos, siempre en el marco de funciones oficiales.
+                </p>
+                <p>
+                  -Los vehículos de carga liviana que se empleen permanentemente
+                  en labores de comercio o agricultura podrán ser autorizados,
+                  previa entrega de la documentación respectiva, mediante
+                  resolución emitida por el Despacho de la Viceministra de
+                  Transportes, conforme a la materia.
+                </p>
+                <p>
+                  -Vehículos que movilicen concreto fresco, también denominado
+                  concreto hidráulico.
+                </p>
+                <p>
+                  -Vehículos que pertenezcan a compañías dedicadas al alquiler o
+                  renta de automóviles, comúnmente conocidas como ‘rent a car’.
+                  Para acreditar esta condición, el conductor deberá presentar
+                  ante las autoridades de tránsito la documentación que
+                  demuestre que el vehículo es propiedad de la empresa
+                  arrendadora.
+                </p>
+                <p>
+                  -"Ocupación plena", cuando se transportan mínimo cuatro
+                  personas, incluyendo al conductor. Esta condición es clave
+                  para acceder a ciertos beneficios de movilidad y
+                  sostenibilidad. Esto aplica únicamente, en horarios de 6:00
+                  a.m. a 8:00 a.m. y de 4:30 p.m. a 7:00 p.m.
+                </p>
+                <p>-Motocicletas.</p>
+
+                <p>
+                  -Los vehículos que funcionan al 100% con electricidad, o con
+                  placas color verde.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-title text-center">
+            <h2>
+              Multas o infracciones de acuerdo a la ley 9078, o Ley de Tránsito
+              en Costa Rica. Montos o tarifas correspondientes al 2025.
+            </h2>
+            <p>
+              Artículos, montos y pérdida de puntos a la licencia de acuerdo al
+              tipo de infracción cometida
+            </p>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q41">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a41"
+              >
+                41. 1. Multas categoría A. (Artículo 143). Monto ₡363 639,15 y
+                acumulan 6 puntos en la licencia.
+              </button>
+            </h2>
+            <div
+              id="a41"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -1. Conducir bajo los efectos del alcohol. Además, se le abre
+                  expediente judicial, si está por encima del nivel de alcohol
+                  en sangre permitido, de acuerdo a la ley.
+                </p>
+                <p>-2. Conductor que se niegue a una prueba de alcoholemia.</p>
+                <p>-3. Invadir carril contrario separado con línea continua.</p>
+                <p>
+                  -4. Giro ilegal en U o a la izquierda, donde exista
+                  señalamiento que lo prohíba.
+                </p>
+                <p>-5. Circular a más de 120 km por hora.</p>
+                <p>-6. Conducir con la licencia suspendida.</p>
+                <p>
+                  -7. Adelantar por el espaldón, por el lado derecho, curvas,
+                  intersecciones, cruces de ferrocarril, puentes, túneles y
+                  pasos a desnivel.
+                </p>
+                <p>
+                  -8. Conductor que invada el carril adjunto, que se encuentre
+                  separado por una línea de barrera de trazo continuo. A
+                  excepción de lo establecido en el artículo 100, de la Ley de
+                  Tránsito.
+                </p>
+                <p>
+                  -9. Ruido o emisiones de gases, humos o partículas
+                  contaminantes que sobrepasen los límites establecidos, de
+                  acuerdo con el artículo 38 y el artículo 39 de esta ley.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q42">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a42"
+              >
+                42. 2. Multas categoría B. (Artículo 144). Monto ₡245 735,68 y
+                acumulan 4 puntos en la licencia.
+              </button>
+            </h2>
+            <div
+              id="a42"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -1. Llevar niños menores de 12 años, o de estatura menor a 145
+                  cm, sin dispositivo de asiento apropiadado para el niño, en el
+                  vehículo.
+                </p>
+                <p>-2. Llevar niños menores de 5 años en la moto o bicimoto.</p>
+                <p>-3. No respetar la señal de Alto.</p>
+                <p>
+                  -4. Irrespeto a la señal de alto de la luz roja de un
+                  semáforo, excepto lo que está indicado en el artículo 104 de
+                  esta ley.
+                </p>
+                <p>
+                  -5. Circular a 40 km por hora, o más velocidad, sobre el
+                  límite máximo de velocidad permitido.
+                </p>
+                <p>
+                  -6. Conducir con placa(s) correspondiente(s) o registrada(s),
+                  a otro vehículo, placa(s) falsa(s) o alterada(s). Además, se
+                  abre investigación judicial, porque son documentos legales y
+                  dados únicamente por el Estado.
+                </p>
+                <p>
+                  -7. Conducir y dañar los dispositivos de alerta y prevención
+                  del paso del tren, al no respetar la señal de alto, en el
+                  derecho de vía ferroviario.
+                </p>
+                <p>
+                  -8. Conducir un vehículo de transporte de materiales
+                  peligrosos, en violación de las disposiciones del artículo 115
+                  de la presente ley.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q43">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a43"
+              >
+                43. 3. Multas categoría C. (Artículo 145). Monto ₡122 867,84 y
+                no acumulan puntos en la licencia.
+              </button>
+            </h2>
+            <div
+              id="a43"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -1. No usar o permitir, que un acompañante no use el cinturón.
+                </p>
+                <p>
+                  -2. Usar el celular (dispositivos similares), mientras
+                  conduce.
+                </p>
+                <p>
+                  -3. No usar casco, o usarlo incorrectamente, mientras va en la
+                  moto.
+                </p>
+                <p>
+                  -4. Conducir vehículos de carga pesada en zonas urbanas y
+                  suburbanas no autorizadas por el MOPT.
+                </p>
+                <p>
+                  -5. Conductor circulando vehículo con exceso de carga en las
+                  vías públicas, excepto en lo escrito en el inciso h) y
+                  párrafos finales del artículo 114.
+                </p>
+                <p>
+                  -6. Quien maneje o circule en vías públicas con vehículos
+                  automotores modificados o adaptados, de acuerdo a lo dispuesto
+                  en el artículo 122 de esta ley.
+                </p>
+                <p>
+                  -7. Circulación de vehículo sin los dispositivos
+                  retrorreflectivos exigidos.
+                </p>
+                <p>
+                  -8. Conductor que no cumpla con los recorridos y paradas
+                  marcados o señalados por el CTP para vehículos de transporte
+                  público, excepto en casos fortuitos o fuerza mayor.
+                </p>
+                <p>
+                  -9. Conductor de vehículos de transporte público excediendo la
+                  capacidad de pasajeros dada por el CTP.
+                </p>
+                <p>
+                  -10. Conducir vehículo de servicio de transporte público y
+                  trasladar pasajeros en el área designada para entrada y
+                  salida, en contravención del inciso a) del artículo 51 de esta
+                  ley.
+                </p>
+                <p>
+                  -11. Conductor que circule con vehículo sin luces
+                  reglamentarias encendidas, desde las 6pm hasta las 6am, o en
+                  ocasiones en que se dificulte la visibilidad, como neblina y/o
+                  lluvia.
+                </p>
+                <p>
+                  -12. Conductor de vehículos grúa o plataforma que no cumpla
+                  con el artículo 113 de esta ley.
+                </p>
+                <p>
+                  -13. Propietario de taxi que no tenga taxímetro o lo tenga
+                  alterado.
+                </p>
+                <p>
+                  -14. Conductor de taxi que no use el taxímetro al llevar
+                  pasajeros.
+                </p>
+                <p>
+                  -15. Conductor que adelante abusando de la prioridad de paso
+                  de los vehículos de emergencia.
+                </p>
+                <p>
+                  -16. Conductor que transite por las aceras con vehículos
+                  automotores.
+                </p>
+                <p>
+                  -17. Conductor que realice adelantamientos a vehículos
+                  detenidos frente a una zonas peatonales.
+                </p>
+                <p>
+                  -18. Conductor que viole las normas del artículo 126 de la
+                  ley, usando el teléfono móvil u otros medios de comunicación
+                  mientras conduce, a menos que sean manos libres, o realice
+                  actividades no relacionadas con la conducción.
+                </p>
+                <p>
+                  -19. Conducir sin la licencia requerida para el tipo y clase
+                  de vehículo, o sin permiso temporal de aprendizaje, o con
+                  permiso temporal sin el acompañante debido.
+                </p>
+                <p>
+                  -20. Conductor que exceda los veinticinco kilómetros por hora
+                  en vías públicas alrededor de centros educativos con
+                  estudiantes, centros de salud, centros de atención a adultos
+                  mayores, o lugares de actividades masivas, debidamente
+                  señalizados.
+                </p>
+                <p>
+                  -21. Conductor que exceda el límite de velocidad en más de
+                  treinta kilómetros por hora, excepto que, se aplique una
+                  sanción mayor.
+                </p>
+                <p>
+                  -22. Conductor de transporte público que se niegue a ofrecer
+                  servicio a personas adultas mayores o con discapacidad, sin
+                  importar la modalidad.
+                </p>
+                <p>
+                  -23. Conductor de bicimoto y motocicleta que adelante entre
+                  filas de vehículos a más de veinticinco kilómetros por hora,
+                  salvo lo indicado en el inciso g) del artículo 108.
+                </p>
+                <p>
+                  -24. Conductor que circule por debajo de la velocidad mínima
+                  establecida en el tramo, con el fin comprobado de congestionar
+                  o entorpecer el flujo vehicular.
+                </p>
+                <p>
+                  -25. Propietario de un vehículo que ofrezca servicio de
+                  transporte público sin las autorizaciones correspondientes. La
+                  misma sanción aplica al conductor que no sea el propietario
+                  del vehículo y ofrezca el servicio sin autorizaciones.
+                </p>
+                <p>
+                  -26. Conducir evadiendo el control o la señal de alto en el
+                  derecho de vía ferroviario, así como estacionar u obstruir con
+                  cualquier tipo de vehículo el derecho de vía ferroviario.
+                </p>
+                <p>
+                  -27. Conductor de vehículo de carga liviana o pesada que
+                  incumpla las disposiciones a), b), c), d), e), f) y j) del
+                  artículo 114 de esta ley.
+                </p>
+                <p>
+                  -28. Conductor con exceso de pasajeros de acuerdo a la
+                  capacidad máxima permitida del vehículo.
+                </p>
+                <p>
+                  -29. Conductor que lleve pasajeros fuera de la cabina en la
+                  cajuela o cajón del vehículo, salvo para trabajadores en
+                  actividades agrícolas, mantenimiento de servicios públicos,
+                  emergencias, o en carreteras cantonales de lastre o tierra.
+                </p>
+                <p>
+                  -30. Conductor que circule un vehículo en vías y horarios
+                  restringidos debido a una emergencia nacional decretada.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q44">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a44"
+              >
+                44. 4. Multas categoría D. (Artículo 146). Monto ₡60 813,37 y no
+                acumulan puntos en la licencia.
+              </button>
+            </h2>
+            <div
+              id="a44"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -1. Parquear(se) en zonas no autorizadas; línea amarilla,
+                  cerca de hidrantes, garajes, salidas o entradas, salidas de
+                  vehículos de emergencia, lugares de discapacitados).
+                </p>
+                <p>
+                  -2. Vehículo con la revisión técnica vehicular vencida, (DEKRA
+                  o empresa a cargo de ello).
+                </p>
+                <p>
+                  -3. Vehículo con el derecho de circulación vencido (Marchamo
+                  del año en curso). Además, se expone al retiro de matrículas o
+                  placas.
+                </p>
+                <p>
+                  -4. Incumplir o no respetar el uso correcto de luces del
+                  vehículo. De 6pm a 6am, o cuando las condiciones del tiempo lo
+                  ameriten, como neblina y/o lluvia. Motos luz encendida 24/7,
+                  sin excepción.
+                </p>
+                <p>
+                  -5. Propietario de vehículo que lo ponga en circulación con
+                  dispositivos que anulen o burlen los aparatos de vigilancia de
+                  la Policía de Tránsito.
+                </p>
+                <p>
+                  -6. Conductor que no respete las señales de tránsito
+                  verticales u horizontales, así como las indicaciones de la
+                  autoridad de tránsito, siempre que no haya una sanción mayor.
+                </p>
+                <p>
+                  -7. Conductor que no respete las prioridades de paso, de
+                  acuerdo al artículo 105 de esta ley.
+                </p>
+                <p>
+                  -8. Conductor que no cumpla con las indicaciones para la
+                  circulación en rotondas, de acuerdo a lo establecido en el
+                  artículo 106 de esta ley.
+                </p>
+                <p>
+                  -9. Conductor que no cumpla con las reglas sobre el uso del
+                  carril central de acuerdo al artículo 107 de esta ley.
+                </p>
+                <p>
+                  -10. Conductor que no cumpla con los requisitos de
+                  señalamiento de maniobra de acuerdo a lo establecido en el
+                  inciso c) del artículo 108 de esta ley.
+                </p>
+                <p>
+                  -11. Conductor que no cumpla con las normas de uso de luces
+                  establecidas, de acuerdo al artículo 103 de esta ley, siempre
+                  que no haya una sanción mayor.
+                </p>
+                <p>
+                  -12. Conductor de motocicleta o bicimoto que ande sin la
+                  debida vestimenta retrorreflectiva.
+                </p>
+                <p>
+                  -13. Conductor que no respete las prohibiciones sobre
+                  circulación de vehículos establecidas de acuerdo al artículo
+                  122 de esta ley, salvo que no exista una sanción mayor.
+                </p>
+                <p>
+                  -14. Propietario que ponga en circulación un vehículo con el
+                  motor, sistemas de inyección, carburador o control de
+                  emisiones alterados, de acuerdo a lo establecido en su tarjeta
+                  de Inspección Vehicular (IVE).
+                </p>
+                <p>
+                  -15. Conductor que opere un taxi, o servicio especial de taxi
+                  en zonas no autorizadas para recoger pasajeros.
+                </p>
+                <p>
+                  -16. Conductor que ofrezca servicio especial estable de taxi
+                  sin tener el contrato correspondiente.
+                </p>
+                <p>
+                  -17. Conductor que no respete las normas sobre maniobras de
+                  retroceso establecidas en el artículo 109 de esta ley.
+                </p>
+                <p>
+                  -18. Conductor que circule vehículos en vías con tránsito
+                  restringido por disposición de la Dirección General de
+                  Ingeniería de Tránsito.
+                </p>
+                <p>
+                  -19. Conductor que con licencia extranjera por más de tres
+                  meses después de haber ingresado al país.
+                </p>
+                <p>
+                  -20. Conductor que ingrese a una intersección con luz verde o
+                  derecho de vía, si la maniobra obstruye la libre circulación
+                  debido al congestionamiento vehicular.
+                </p>
+                <p>
+                  -21. Conductor circulando con vehículos automotores en las
+                  playas, salvando las excepciones previstas en la ley.
+                </p>
+                <p>
+                  -22. Conductor de vehículo de transporte público que abastezca
+                  combustible mientras transporta pasajeros.
+                </p>
+                <p>
+                  -23. Ciclista en vías públicas donde la velocidad permitida
+                  sea igual o mayor a 80 km por hora.
+                </p>
+                <p>
+                  -24. Conductor circulando a más de 20 km por hora por encima
+                  del límite máximo establecido, salvo que haya una sanción
+                  mayor.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q45">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#a45"
+              >
+                45. 5. Multas categoría E. (Artículo 147). Monto ₡26 062,87 y no
+                acumulan puntos en la licencia.
+              </button>
+            </h2>
+            <div
+              id="a45"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  -1. Conducir con la licencia caducada y/o permiso temporal de
+                  manejo caducado.
+                </p>
+                <p>-2. Irrespetar la restricción vehicular.</p>
+                <p>
+                  -3. No portar en el vehículo los implementos de seguridad y
+                  herramientas para cambiar llanta(s).
+                </p>
+                <p>
+                  -4. Circular sin placas o con una menos (vehículos como
+                  automóviles).
+                </p>
+                <p>
+                  -5. Conductor que provoque lesiones o daños a bienes de manera
+                  culposa, siempre que por la naturaleza del hecho o su
+                  gravedad, no le sea aplicable otra legislación.
+                </p>
+                <p>
+                  -6. Propietario de vehículo de transporte de carga limitada
+                  que lo ponga en circulación infringiendo los requisitos
+                  establecidos en el artículo 112 de esta ley.
+                </p>
+                <p>
+                  -7. Conductor que utilice los altoparlantes del vehículo entre
+                  las 19:00 y las 7:00 horas, salvo que tenga permiso del MOPT
+                  por intereses públicos.
+                </p>
+                <p>
+                  -8. Conductor que utilice los altoparlantes del vehículo a
+                  menos de cien metros de clínicas, hospitales, centros de
+                  enseñanza e iglesias, cuando en estos lugares se estén
+                  llevando a cabo actividades.
+                </p>
+                <p>
+                  -9. Conductor de un vehículo de tránsito lento que circule a
+                  menos de cincuenta metros de otro vehículo de tránsito lento.
+                </p>
+                <p>
+                  -10. Conductor que se detenga sobre el señalamiento
+                  horizontal, excepto en la señal de alto donde la visibilidad
+                  sea insuficiente para avanzar.
+                </p>
+                <p>
+                  -11. Propietario que ponga en circulación un vehículo sin los
+                  documentos exigidos en el artículo 4 de esta ley, o conductor
+                  que no cuente con la licencia de conducir correspondiente, la
+                  cual no es necesario portar físicamente, pudiendo el oficial
+                  de tránsito verificar la existencia del permiso por otras
+                  vías.
+                </p>
+                <p>
+                  -12. Conductor sujetado de otro vehículo en marcha en vías
+                  públicas.
+                </p>
+                <p>
+                  -13. Conductor que infrinja las normas de adelantamiento
+                  establecidas en el artículo 108 de esta ley, siempre que no
+                  exista una sanción mayor.
+                </p>
+                <p>
+                  -14. Conductor que no ceda el paso a peatones en los lugares
+                  señalizados para ello.
+                </p>
+                <p>
+                  -15. Propietario que ponga en circulación un vehículo con las
+                  placas reglamentarias ubicadas en un lugar distinto al donde
+                  deben de estar.
+                </p>
+                <p>
+                  -16. Evasión del pago de peajes o que no presente el
+                  comprobante de pago cuando sea requerido por la autoridad de
+                  tránsito.
+                </p>
+                <p>
+                  -17. Conductor que use el pito u otros dispositivos similares
+                  para apresurar al vehículo que tiene delante.
+                </p>
+                <p>
+                  -18. Conductor que use el pito a menos de cien metros de
+                  hospitales, clínicas, iglesias y centros de enseñanza cuando
+                  en estos últimos se estén llevando a cabo actividades.
+                </p>
+                <p>
+                  -19. Conductor que use señales sonoras de manera abusiva sin
+                  justificación.
+                </p>
+                <p>
+                  -20. Conductor que ocasione congestión vial al reducir la
+                  velocidad, para prestar atención un accidente u otro evento.
+                </p>
+                <p>
+                  -21. Conductor de vehículo sin placas o con menos placas de
+                  las reglamentariamente exigidas.
+                </p>
+                <p>
+                  -22. Conductor que utilice los estacionamientos
+                  preferenciales, sin cumplir las condiciones previstas en el
+                  artículo 96 de esta ley.
+                </p>
+                <p>
+                  -23. Circulación de un vehículo cuyas características físicas
+                  inscribibles hayan sido modificadas sin cumplir con el deber
+                  de informar lo estipulado en el artículo 13 de esta ley.
+                </p>
+                <p>
+                  -24. Propietario que ponga en circulación un vehículo sin
+                  cumplir con los requisitos establecidos en el título II,
+                  capítulo I, sección V de esta ley, siempre que no exista una
+                  sanción mayor.
+                </p>
+                <p>
+                  -25. Propietario que ponga en circulación un vehículo de
+                  transporte público sin la rotulación exigida en esta ley.
+                </p>
+                <p>
+                  -26. Persona enseñando a andar bicicleta en vías públicas
+                  donde la velocidad autorizada sea superior a 40 km por hora.
+                </p>
+                <p>-27. Ciclista que ande en la acera</p>
+                <p>
+                  -28. Persona que circule en vías públicas con patinetas,
+                  patines u otros vehículos no autorizados, de acuerdo a lo que
+                  dice el artículo 124 de esta ley.
+                </p>
+                <p>
+                  -29. Peatón que transite por las vías públicas en violación de
+                  las disposiciones establecidas en los incisos a), b), c), d) y
+                  e) del artículo 120 de esta ley, siempre que no haya una
+                  sanción mayor aplicable.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team2" class="py-5">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Otros servicios que tenemos, a su completa disposición</h2>
+          <p>Si necesita alguno no dude, en contactarnos</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="LAL.png"
+                class="card-img-top"
+                alt="Learning Any Language ad"
+              />
+              <div class="card-body">
+                <h5>Learning Any Language</h5>
+                <p class="text-muted">-Cursos de idiomas en línea.</p>
+                <p class="text-muted">-Niños, jóvenes y adultos.</p>
+                <p class="text-muted">-Escríbanos o contáctenos.</p>
+                <p class="text-muted">
+                  -Aprenda su idioma favorito o para trabajo.
+                </p>
+
+                <div class="social-icons">
+                  <a href="https://walink.co/0b99ee" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/search/top?q=learning%20any%20language"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/learnanylang/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+
+                  <a
+                    href="https://josbrevar07.github.io/learning_any_language/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="Impresiones_domicilio.jpg"
+                class="card-img-top"
+                alt="Printing services ad"
+              />
+              <div class="card-body">
+                <h5>Servicios de impresiones fotocopias y más</h5>
+                <p class="text-muted">-Con entrega a domicilio.</p>
+                <p class="text-muted">-Escaneo de documentos.</p>
+                <p class="text-muted">-(Foto)copias a blanco y negro.</p>
+                <p class="text-muted">-(Foto)copias a color.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="seguridad_vial.jpg"
+                class="card-img-top"
+                alt="How to drive and ride safety ad"
+              />
+              <div class="card-body">
+                <h5>Inducciones sobre seguridad vial</h5>
+                <p class="text-muted">-Consejos como conductor.</p>
+                <p class="text-muted">-Consejos como motociclista.</p>
+                <p class="text-muted">-Consejos como peatón.</p>
+                <p class="text-muted">-Consejos como ciclista.</p>
+                <p class="text-muted">-Concientización.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="necesita_pagina_web.png"
+                class="card-img-top"
+                alt="need a website ad"
+              />
+              <div class="card-body">
+                <h5>Escríbanos será un gusto ayudarle</h5>
+                <p class="text-muted">-Página personal.</p>
+                <p class="text-muted">-Página para negocio.</p>
+                <p class="text-muted">-Página para emprendimiento.</p>
+                <p class="text-muted">-Destaque más allá.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="ejercicios_linea.png"
+                class="card-img-top"
+                alt="online exercises ad"
+              />
+              <div class="card-body">
+                <h5>Ejercicios 100% en línea interactivos y dinámicos</h5>
+                <p class="text-muted">-Idiomas.</p>
+                <p class="text-muted">-Matemáticas.</p>
+                <p class="text-muted">-Estudios sociales.</p>
+                <p class="text-muted">-Ciencias.</p>
+                <p class="text-muted">-Otros.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="clases_espanol.jpg"
+                class="card-img-top"
+                alt="Spanish lessons"
+              />
+              <div class="card-body">
+                <h5>¿Tiene dificultades para escribir bien?</h5>
+                <p class="text-muted">-Aquí le ayudamos.</p>
+                <p class="text-muted">-Solo escríbanos para ayudarle.</p>
+                <p class="text-muted">-Mejore su ortografía.</p>
+                <p class="text-muted">-Correcciones y ejercicios.</p>
+                <p class="text-muted">-100% en línea.</p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="blog_profe_josue.jpg"
+                class="card-img-top"
+                alt="Teacher's blog"
+              />
+              <div class="card-body">
+                <h5>Blog del Profe Josué</h5>
+                <p class="text-muted">
+                  -Algunos documentos para entender inglés más fácil.
+                </p>
+                <p class="text-muted">
+                  -Algunos ejercicios para aprender inglés más fácilmente.
+                </p>
+                <p class="text-muted">
+                  -Clases de inglés personalizadas o en grupo.
+                </p>
+                <p class="text-muted">-¡Es hora de aprender inglés!</p>
+                <p class="text-muted"></p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center border-0 shadow-sm h-100">
+              <img
+                src="ingles.jpg"
+                class="card-img-top"
+                alt="English course ad"
+              />
+              <div class="card-body">
+                <h5>¿Sabe inglés pero no tiene con quién y cómo practicar?</h5>
+                <p class="text-muted">-Lo esperamos los sábados 8:00 p.m.</p>
+                <p class="text-muted">-100% virtual.</p>
+                <p class="text-muted">-Aproveche la oportunidad.</p>
+                <p class="text-muted">-Escríbanos si le interesa.</p>
+                <p class="text-muted"></p>
+                <p class="text-muted"></p>
+                <div class="social-icons">
+                  <a href="https://walink.co/341b8e" class="mx-2"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/josue.brenesvargas"
+                    class="mx-2"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                    class="mx-2"
+                    ><i class="bi bi-browser-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-dark text-light">
+      <div class="container text-center">
+        <div class="section-title">
+          <h2>Contacto y redes sociales</h2>
+          <p>¡Estamos a su completa disposición y para servirle!</p>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://walink.co/341b8e" class="mx-2"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+          <a href="https://www.facebook.com/josue.brenesvargas" class="mx-2"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+            ><i class="bi bi-youtube"></i
+          ></a>
+          <a
+            href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+            class="mx-2"
+            ><i class="bi bi-browser-chrome"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white">
+      <div class="container footer-top">
+        <div class="row">
+          <div class="col-md-3">
+            <h5 class="fw-bold">clases-de-manejo-personalizadas.com</h5>
+            <p>
+              Acompañamiento, supervisión y guía para, una conducción segura.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="fw-bold">Enlaces útiles</h5>
+            <ul class="list-unstyled">
+              <li><a href="#team">Nuestros servicios</a></li>
+              <li><a href="#faq">Preguntas frecuentes</a></li>
+              <li><a href="#team2">Otros servicios para usted</a></li>
+              <li><a href="#services">Nuestros servicios en resumen</a></li>
+              <li>
+                <a
+                  href="https://josbrevar07.github.io/irregular_verb_challenge_3/"
+                  >Ejercicio en línea de verbos irregulares en inglés</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5 class="fw-bold">Más enlaces útiles</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+                  >Blog del profe Josué 2.0</a
+                >
+              </li>
+              <li>
+                <a href="https://josbrevar07.github.io/servicio_de_impresiones/"
+                  >Servicio de impresiones y más</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://josbrevar07.github.io/practica_leyes_acento_espanol/"
+                  >Ejercicio en línea de tildar o no palabras</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://josbrevar07.github.io/practica_examen_teorico_de_manejo/"
+                  >Ejercicio en línea del examen teórico de manejo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5 class="fw-bold">Contáctenos</h5>
+            <p>Santiago de Puriscal,<br />San José,<br />Costa Rica.</p>
+            <p>
+              <strong>Teléfono</strong> (+506) 8691-7316<br /><strong
+                >Email:</strong
+              >
+              josbrevar07@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom text-center">
+        <p class="mb-0">Designed by: Josbrevar07. © 2025 All Rights Reserved</p>
+        <small
+          ><div class="social-icons">
+            <a href="https://walink.co/341b8e" class="mx-2"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a href="https://www.facebook.com/josue.brenesvargas" class="mx-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/josbrevar07/" class="mx-2"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@josbrevar0773" class="mx-2"
+              ><i class="bi bi-youtube"></i
+            ></a>
+            <a
+              href="https://josbrevar07.github.io/blog_del_profe_josue_2.0/"
+              class="mx-2"
+              ><i class="bi bi-browser-chrome"></i
+            ></a></div
+        ></small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+     <script>
+  // Close navbar after clicking a link (mobile fix)
+  document.querySelectorAll('.navbar-nav .nav-link').forEach(function (link) {
+    link.addEventListener('click', function () {
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+
+      if (navbarToggler && window.getComputedStyle(navbarToggler).display !== 'none') {
+        // Only trigger if toggler is visible (mobile view)
+        new bootstrap.Collapse(navbarCollapse).toggle();
+      }
+    });
+  });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const counters = document.querySelectorAll(".counter");
+      const speed = 200; // lower = faster
+
+      counters.forEach((counter) => {
+        const updateCount = () => {
+          const target = +counter.getAttribute("data-target");
+          const count = +counter.innerText;
+          const increment = target / speed;
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, 20);
+          } else {
+            counter.innerText = target;
+          }
+        };
+
+        // Trigger animation when visible
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                updateCount();
+                observer.unobserve(counter);
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+
+        observer.observe(counter);
+      });
+    </script>
+  </body>
+</html>
+<span id="siteseal"
+  ><script
+    async
+    type="text/javascript"
+    src="https://seal.godaddy.com/getSeal?sealID=i4yNn5CPa0JmrkNsXgb3Zo6uBvIBfW291d7vQKpLK2XP1Y2xURd1SBxn8TEv"
+  ></script
+></span>
